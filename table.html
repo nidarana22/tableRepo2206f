@@ -9,11 +9,10 @@
 <body>
     
     <script>
-        const num=prompt('enter a number');
-        if(num % 2==0){
-            console.log("this is an even number")
-        }else{
-            console.log("this is an odd number")
+        const number = parseInt(prompt('enter an integer'));
+        for(let i=1 ; i<=10;i++){
+            const result=i*number;
+            console.log(`${number} * ${i} = ${result}`);
         }
         
     </script>
